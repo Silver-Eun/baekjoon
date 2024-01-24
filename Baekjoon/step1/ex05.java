@@ -2,13 +2,16 @@ package step1;
 
 import java.util.Scanner;
 
-public class ex7 {
+public class ex05 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		String A = sc.next();
+		double A = sc.nextDouble();
+		double B = sc.nextDouble();
 		
-		System.out.println(A + "??!");
+		System.out.println(A/B);
 		
 		sc.close();
 	}
+
 }
