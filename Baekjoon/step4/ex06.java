@@ -16,6 +16,7 @@ public class ex06 {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = i + 1;
 		}
+		
 		for (int j = 0; j < M; j++) {
 			int I = sc.nextInt();
 			int J = sc.nextInt();
@@ -24,9 +25,12 @@ public class ex06 {
 			arr[I - 1] = arr[J - 1];
 			arr[J - 1] = temp;
 		}
+		
 		for (int k = 0; k < arr.length; k++) {
 			System.out.print(arr[k] + " ");
 		}
+		
+		sc.close();
 	}
 
 }
