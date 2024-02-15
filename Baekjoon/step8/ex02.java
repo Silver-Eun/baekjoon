@@ -21,7 +21,7 @@ public class ex02 {
 			if (remainder < 10) {
 				result = remainder + result;
 			} else {
-				// 10 이상의 경우 'A'부터 문자로 변환
+				// 10 이상일 경우 'A'부터 문자로 변환
 				result = (char)('A' + remainder - 10) + result;
 			}
 			N /= B;
