@@ -8,8 +8,9 @@ public class ex01 {
 		Scanner sc = new Scanner(System.in);
 
 		while (true) {
-
+			// 첫번째 수
 			int a = sc.nextInt();
+			// 두번째 수
 			int b = sc.nextInt();
 
 			if (a == 0 && b == 0)
