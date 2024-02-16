@@ -26,8 +26,9 @@ public class ex06 {
 					System.out.print((cross_count - (X - prev_count_sum - 1)) + "/" + (X - prev_count_sum));
 					break;
 				}
-				// 홀수일 때의 출력을 반대로
-				else {// 대각선상의 블럭의 개수가 짝수라면
+				// 대각선상의 블럭의 개수가 짝수라면
+				else {
+					// 홀수일 때의 출력을 반대로
 					System.out.print((X - prev_count_sum) + "/" + (cross_count - (X - prev_count_sum - 1)));
 					break;
 				}
