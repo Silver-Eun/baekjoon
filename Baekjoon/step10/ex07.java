@@ -25,6 +25,7 @@ public class ex07 {
 					max = j;
 				}
 			}
+
 			if (arr[0] == arr[1] && arr[1] == arr[2])
 				System.out.println("Equilateral");
 			else if (max >= arr[0] + arr[1] || max >= arr[1] + arr[2] || max >= arr[0] + arr[2])
