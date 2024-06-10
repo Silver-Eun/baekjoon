@@ -14,7 +14,7 @@ public class ex08 {
 
 		for (int i = 0; i < 20; i++) {
 			// 과목명
-			String s = sc.next();
+//			String s = sc.next();
 			// 학점
 			double f = sc.nextDouble();
 			// 평점

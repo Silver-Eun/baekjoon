@@ -2,7 +2,7 @@ package Bronze_V;
 
 import java.util.Scanner;
 
-public class ex01000 {
+public class ex01001 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,8 +10,8 @@ public class ex01000 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 
-		System.out.println(a + b);
-		
+		System.out.println(a - b);
+
 		sc.close();
 	}
 
