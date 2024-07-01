@@ -17,10 +17,16 @@ public class ex13118 {
 		int Y = sc.nextInt();
 		int R = sc.nextInt();
 
+		boolean b = false;
 		for (int i = 0; i < arr.length; i++) {
-			if ((Y - R) >= (X - Math.abs(arr[i]))) {
+			if (arr[i] == X) {
 				System.out.println(i + 1);
+				b = true;
 			}
+		}
+
+		if (b == false) {
+			System.out.print(0);
 		}
 
 		sc.close();
