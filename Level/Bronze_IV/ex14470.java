@@ -18,7 +18,7 @@ public class ex14470 {
 		int time = 0;
 
 		if (A < 0) {
-			time += Math.abs(0 - A) * 5;
+			time += Math.abs(0 - A) * C;
 			time += D;
 			time += B * E;
 		} else if (A == 0) {
