@@ -9,6 +9,8 @@ public class ex17356 {
 
 		double A = sc.nextDouble();
 		double B = sc.nextDouble();
+		
+		sc.close();
 
 		double M = (B - A) / 400;
 
