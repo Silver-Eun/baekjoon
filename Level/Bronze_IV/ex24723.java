@@ -11,7 +11,7 @@ public class ex24723 {
 
 		sc.close();
 
-		System.out.println(Math.pow(2, N));
+		System.out.println((int)Math.pow(2, N));
 	}
 
 }
