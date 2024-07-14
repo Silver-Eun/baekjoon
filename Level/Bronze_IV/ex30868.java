@@ -16,13 +16,13 @@ public class ex30868 {
 			int a = arr[i] / 5;
 			int b = arr[i] % 5;
 
-			System.out.println();
 			for (int j = 0; j < a; j++) {
 				System.out.print("++++ ");
 			}
 			for (int j = 0; j < b; j++) {
 				System.out.print("|");
 			}
+			System.out.println();
 		}
 
 		sc.close();
