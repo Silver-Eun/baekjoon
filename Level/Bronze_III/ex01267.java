@@ -27,6 +27,8 @@ public class ex01267 {
 		} else {
 			System.out.println("Y M " + Y);
 		}
+		
+		sc.close();
 	}
 
 }
