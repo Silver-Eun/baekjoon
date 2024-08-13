@@ -9,6 +9,8 @@ public class ex03029 {
 
 		String[] a = sc.nextLine().split(":");
 		String[] b = sc.nextLine().split(":");
+		
+		sc.close();
 
 		int h = Integer.parseInt(a[0]);
 		int m = Integer.parseInt(a[1]);
