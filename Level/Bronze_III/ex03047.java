@@ -28,7 +28,7 @@ public class ex03047 {
 		} else if (b.equals("ACB")) {
 			System.out.println(M + " " + O + " " + N);
 		} else if (b.equals("BAC")) {
-			System.out.println(O + " " + M + " " + N);
+			System.out.println(N + " " + M + " " + O);
 		} else if (b.equals("BCA")) {
 			System.out.println(N + " " + O + " " + M);
 		} else if (b.equals("CBA")) {
