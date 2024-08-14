@@ -30,6 +30,8 @@ public class ex03058 {
 			
 			System.out.println(sum + " " + min);
 		}
+		
+		sc.close();
 	}
 
 }
