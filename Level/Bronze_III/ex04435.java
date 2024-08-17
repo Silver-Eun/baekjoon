@@ -41,6 +41,8 @@ public class ex04435 {
 				System.out.println("Battle " + (i + 1) + ": No victor on this battle field");
 			}
 		}
+		
+		sc.close();
 	}
 
 }
