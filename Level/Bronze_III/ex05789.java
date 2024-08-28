@@ -8,7 +8,7 @@ public class ex05789 {
 		Scanner sc = new Scanner(System.in);
 
 		int n = sc.nextInt();
-		sc.nextLine(); // 개행 문자 소비
+		sc.nextLine();
 
 		for (int i = 0; i < n; i++) {
 			String a = sc.nextLine();
