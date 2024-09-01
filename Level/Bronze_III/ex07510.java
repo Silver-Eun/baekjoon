@@ -32,6 +32,8 @@ public class ex07510 {
 			}
 			System.out.println();
 		}
+		
+		sc.close();
 	}
 
 }
