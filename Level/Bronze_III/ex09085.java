@@ -8,8 +8,7 @@ public class ex09085 {
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
-		
-		
+				
 		for(int i = 0; i < T; i++) {
 			int sum = 0;
 			int N = sc.nextInt();
