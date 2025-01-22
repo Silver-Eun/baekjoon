@@ -1,3 +1,5 @@
-# baekjoon
+## Java Algorithm Study with Baekjoon
 
-Algorithm Daily Coding
+### Baekjoon
+- **Period**: 2024.01.21 ~ 
+- **Platform**: Baekjoon
