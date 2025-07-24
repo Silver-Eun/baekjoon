@@ -19,7 +19,7 @@ public class ex12756 {
 
 		if (A2 > B2) {
 			System.out.println("PLAYER A");
-		} else if (A2 == B2) {
+		} else if (A2 <= 0 && B2 <= 0) {
 			System.out.println("DRAW");
 		} else {
 			System.out.println("PLAYER B");
