@@ -10,13 +10,13 @@ public class ex15667 {
 		int N = sc.nextInt();
 		int K = 1;
 
-		while (K * K + K <= N - 1) {
+		while (K * K + K < N - 1) {
 			K++;
 		}
 
 		sc.close();
 
-		System.out.println(K - 1);
+		System.out.println(K);
 	}
 
 }
