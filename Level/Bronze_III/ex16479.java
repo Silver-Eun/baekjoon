@@ -7,15 +7,14 @@ public class ex16479 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int K = sc.nextInt();
-		int D1 = sc.nextInt();
-		int D2 = sc.nextInt();
+		double K = sc.nextDouble();
+		double D1 = sc.nextDouble();
+		double D2 = sc.nextDouble();
 
-		int H = 0;
+		double diff = (D1 - D2) / 2.0;
+		double result = K * K - diff * diff;
 
-		H = K * K - ((D1 - D2) / 2) * ((D1 - D2) / 2);
-
-		System.out.println(H);
+		System.out.printf("%.10f\n", result);
 
 		sc.close();
 	}
