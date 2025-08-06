@@ -12,6 +12,8 @@ public class ex16483 {
 		double a = (T * T) / 4;
 
 		System.out.printf("%.0f\n", a);
+		
+		sc.close();
 	}
 
 }
