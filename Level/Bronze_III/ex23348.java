@@ -15,23 +15,23 @@ public class ex23348 {
 
 		int N = sc.nextInt();
 
-		int[] E = new int[N];
+		int[] F = new int[N];
 		int max = 0;
 
 		for (int i = 0; i < N; i++) {
-			int C = sc.nextInt();
-			String[] D = C.split(" ");
-
-			E[i] += Integer.valueOf(D[0]) * a + Integer.valueOf(D[1]) * b + Integer.valueOf(D[2]) * c;
-		}
-
-		for (int i = 0; i < E.length; i++) {
-			if (E[i] > max)
-				max = E[i];
+			for (int j = 0; j < 3; j++) {
+				int C = sc.nextInt();
+				int D = sc.nextInt();
+				int E = sc.nextInt();
+				
+				F[i] += C * a + D * b + E * c;
+			}
+			if (F[i] > max)
+				max = F[i];
 		}
 
 		System.out.println(max);
-		
+
 		sc.close();
 	}
 
