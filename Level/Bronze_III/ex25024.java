@@ -9,7 +9,6 @@ public class ex25024 {
 
 		int T = sc.nextInt();
 
-
 		int[] days = { 0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 		
 		for (int i = 0; i < T; i++) {
