@@ -29,7 +29,10 @@ public class ex25629 {
 		}
 		
 		if(Math.abs(even - odd) <= 1) {
-			System.out.println(1);
+			if(even <= odd)
+				System.out.println(1);
+			else
+				System.out.println(0);
 		} else {
 			System.out.println(0);
 		}
