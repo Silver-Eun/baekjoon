@@ -28,6 +28,8 @@ public class ex27159 {
 		sum += groupMin;
 
 		System.out.println(sum);
+		
+		sc.close();
 	}
 
 }
