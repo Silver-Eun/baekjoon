@@ -18,7 +18,9 @@ public class ex33753 {
 		if (T <= 30) {
 			m = A;
 		} else {
-			m = A + ((T - 30) / B * C);
+			int extraTime = T - 30;
+			int count = (extraTime + B - 1) / B;
+			m = A + count * C;
 		}
 
 		System.out.println(m);
