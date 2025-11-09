@@ -9,6 +9,16 @@ public class ex33950 {
 
 		int T = sc.nextInt();
 		
+		sc.nextLine();
+		
+		for(int i = 0; i < T; i++) {
+			String s = sc.nextLine();
+			
+			s = s.replace("PO", "PHO");
+			
+			System.out.println(s);
+		}
+		
 		sc.close();
 	}
 
