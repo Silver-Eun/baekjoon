@@ -9,19 +9,24 @@ public class ex01350 {
 
 		int N = sc.nextInt();
 
-		int F = 0;
+		int[] arr = new int[N];
 
 		for (int i = 0; i < N; i++) {
-			F += sc.nextInt();
+			arr[i] = sc.nextInt();
 		}
 
 		int C = sc.nextInt();
-		
-		while(C < F) {
-			C += C;
+
+		long sum = 0;
+
+		for (int i = 0; i < N; i++) {
+			if (arr[i] > 0) {
+				long clusters = (arr[i] + C - 1) / C;
+				sum += clusters * C;
+			}
 		}
-		
-		System.out.println(C);
+
+		System.out.println(sum);
 
 		sc.close();
 	}
