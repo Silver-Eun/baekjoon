@@ -7,23 +7,22 @@ public class ex01568 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		int N = sc.nextInt();
+		long N = sc.nextLong();
 
-		int r = N;
-		int K = 1;
-		int t = 0;
+		long r = N;
+		long K = 1;
+		long t = 0;
 
-		while (true) {
-			t++;
-			if (K > r)
+		while (r > 0) {
+			if (K > r) {
 				K = 1;
-			else {
-				r -= K;
-				K++;
 			}
-			if (r == 0)
-				break;
+			r -= K;
+			K++;
+			t++;
 		}
+
+		System.out.println(t);
 
 		sc.close();
 	}
