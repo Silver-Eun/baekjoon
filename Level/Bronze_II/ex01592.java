@@ -33,6 +33,8 @@ public class ex01592 {
 		}
 		
 		System.out.println(throwCnt);
+		
+		sc.close();
 	}
 
 }
