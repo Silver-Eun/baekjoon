@@ -9,14 +9,26 @@ public class ex01977 {
 
 		int M = sc.nextInt();
 		int N = sc.nextInt();
-		
+
 		int sum = 0;
 		int min = -1;
-		
-		for(int i = 1; i <= 100; i++) {
-			
+
+		for (int i = 1; i <= 100; i++) {
+			if (i * i <= N && M <= i * i) {
+				sum += i * i;
+				if (min == -1) {
+					min = i * i;
+				}
+			}
 		}
-		
+
+		if (sum == 0) {
+			System.out.println(-1);
+		} else {
+			System.out.println(sum);
+			System.out.println(min);
+		}
+
 		sc.close();
 	}
 
