@@ -16,11 +16,13 @@ public class ex02145 {
 			int sum = 0;
 			
 			while(a.length() > 1) {
+				sum = 0;
 				for(int i = 0; i < a.length(); i++)
 					sum += a.charAt(i) - '0';
+				a = Integer.toString(sum);
 			}
 			
-			System.out.println(sum);
+			System.out.println(a);
 			
 		}
 		
