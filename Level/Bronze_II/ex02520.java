@@ -16,7 +16,7 @@ public class ex02520 {
 			int sa = sc.nextInt();
 			int f = sc.nextInt();
 
-			int dough = Math.min(Math.min(c / 8, y / 8), Math.min(Math.min(su / 4, sa), f / 9)) * 16;
+			int dough = (int) (16 * Math.min(Math.min(c / 8.0, y / 8.0), Math.min(Math.min(su / 4.0, sa), f / 9.0)));
 
 			int b = sc.nextInt();
 			int gs = sc.nextInt();
@@ -24,9 +24,9 @@ public class ex02520 {
 			int w = sc.nextInt();
 
 			int topping = b + gs / 30 + gc / 25 + w / 10;
-			
+
 			int answer = Math.min(dough, topping);
-			
+
 			System.out.println(answer);
 		}
 
