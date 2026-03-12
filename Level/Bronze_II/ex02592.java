@@ -29,6 +29,11 @@ public class ex02592 {
 		    }
 		}
 		
+		int avg = sum / 10;
+		
+		System.out.println(avg);
+		System.out.println(mode);
+		
 		sc.close();
 	}
 
