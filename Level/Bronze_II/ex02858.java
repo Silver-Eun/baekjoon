@@ -2,7 +2,7 @@ package Bronze_II;
 
 import java.util.Scanner;
 
-public class ex2858 {
+public class ex02858 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
