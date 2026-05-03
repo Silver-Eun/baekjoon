@@ -1,6 +1,18 @@
 package Lv0;
 
 public class ex340201 {
+
+    public static void main(String[] args) {
+        ex340201 s = new ex340201();
+
+        int seat = 5;
+
+        String[][] passengers = {{"On", "On", "On"}, {"Off", "On", "-"}, {"Off", "-", "-"}};
+
+        int result = s.solution(seat, passengers);
+        System.out.println(result);
+    }
+
     public int solution(int seat, String[][] passengers) {
         int num_passenger = 0;
         for (int i = 0; i < passengers.length; i++) {
